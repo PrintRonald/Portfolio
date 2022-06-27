@@ -20,13 +20,13 @@
       <header>
         <nav class="navbar">
           <div class="brand">
-            <h2>R<span>M</span></h2>
+            <a  name="brand"><h2>R<span>M</span></h2></a>
           </div>
           <ul class="menu">
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a class="active" name="home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -55,7 +55,7 @@
       <img src="./img/foto_linkedin3.1.jpg" alt="Ronald_picture2" />  
     
     <div class="about-info">
-      <h2>About me</h2>
+      <a name="about" href="#home"><h2>About me</h2></a>
       <div class="divider"></div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi
@@ -79,7 +79,7 @@
   <div class="portfolio">
 
     <div class="portfolio-headings">
-      <h2>My portfolio</h2>
+      <a name="portfolio" href="#home"><h2>My portfolio</h2></a>
       <div class="divider"></div>
     </div>
 
@@ -170,17 +170,17 @@
 
   <div class="contact-section">
     <div class="contact-heading">
-      <h2>Keep in touch</h2>
+      <a name="contact" href="#home"><h2>Keep in touch</h2></a>
       <div class="divider"></div>
     </div>
 
     <div class="container-contact">
       <div class="contact-form">
         <h4>Send me a message...</h4>
-        <form class="form">
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
-          <textarea placeholder="Place your message here..."></textarea>
+        <form class="form" id="form">
+          <input type="text" id="subject" placeholder="Name" name="subject">
+          <input type="email" id="email" placeholder="Email" name="email">
+          <textarea id="message" placeholder="Place your message here..." name="message"></textarea>
           <button type="submit" class="btn-submit">Send message</button>
         </form>
       </div>
@@ -194,13 +194,13 @@
       <h5>Fullstack Python Trainne</h5>
     </div>
     <div class="sotial-network">
-      <i class="fab fa-github"></i>
-      <i class="fab fa-linkedin"></i>
+      <a href="https://github.com/PrintRonald?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/ronald-sebastian-madariaga-madariaga-15397892" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
 
 
   </footer>
-
+<script src="./js/sendEmail.js"></script>
   
   </body>
 </html>

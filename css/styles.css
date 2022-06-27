@@ -30,6 +30,10 @@ body {
   margin-top: -7px;
 }
 
+.brand h2 {
+  color: #fff;
+}
+
 .brand span {
   color: aqua;
 }
@@ -118,9 +122,14 @@ span  {
   padding: 3em;
 }
 
+.about-info a {
+  text-decoration: none;
+}
+
 .about-info h2 {
   font-size: 2em;
   color: #191c32;
+  
 }
 
 .divider {
@@ -147,7 +156,12 @@ span  {
 }
 
 .portfolio-headings h2 {
-  font-size: 2.5em
+  font-size: 2.5em;
+}
+
+.portfolio-headings a {
+  text-decoration: none;
+  color: #060609;
 }
 
 .portfolio .container {
@@ -224,8 +238,12 @@ span  {
 
 .contact-heading h2 {
   font-size: 3em;
+}
 
-} 
+.contact-heading a {
+  text-decoration: none;
+  color: #08090c;
+}
 
 
 
@@ -309,4 +327,5 @@ span  {
 
 .sotial-network i {
   font-size: 3em;
+  color: rgb(13, 9, 9);
 }
