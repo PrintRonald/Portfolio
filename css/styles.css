@@ -329,3 +329,93 @@ span  {
   font-size: 3em;
   color: rgb(13, 9, 9);
 }
+
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  body {
+    background-color: #191c32; 
+  }
+
+
+/* NAVBAR */
+.navbar {
+  display: grid;
+  justify-content:center;
+  grid-template-columns: 1fr;
+}
+
+.menu {
+  display: grid;
+  justify-content:center;
+  grid-template-columns: 1fr;
+  padding: 10px;
+}
+
+.menu .quitar {
+  display: none;
+}
+
+
+  /* MAIN */
+.main {
+  display: grid;
+  justify-content:center;
+  grid-template-columns: 1fr;
+}
+
+.main img {
+  margin: 2em auto;
+}
+
+.info-content {
+  display: grid;
+  justify-content:center;
+  padding-top: 10px;
+}
+
+
+ /* ABOUT ME */
+
+ .about{
+  display: grid;
+  justify-content:center;
+  grid-template-columns: 1fr;
+  padding-top: 150px;
+  margin-bottom: 100px;
+ }
+
+ .about-info a h2 {
+  color:rgb(11, 6, 6);
+ }
+
+ .about-info p {
+  color:#fff;
+ }
+
+ /* PORTFOLIO */
+ .portfolio {
+  display:none;
+ }
+
+ .portfolio .container {
+  display: none;
+}
+
+
+
+.card__img {
+  display: none;
+ }
+
+ /* CONTACT */
+
+ /* FOOTER */
+
+ 
+.footer-content h2{
+  display: none;
+}
+}
