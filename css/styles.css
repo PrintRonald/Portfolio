@@ -343,17 +343,26 @@ span  {
 /* NAVBAR */
 .navbar {
   display: grid;
-  justify-content:center;
   grid-template-columns: 1fr;
 }
 
+.brand {
+  text-align: center;
+}
+
+.navbar .menu{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 .menu {
   display: grid;
   justify-content:center;
-  grid-template-columns: 1fr;
-  padding: 10px;
+  padding: 20px;
 }
 
+.menu li {
+  margin: 10px;
+}
 .menu .quitar {
   display: none;
 }
@@ -388,7 +397,7 @@ span  {
  }
 
  .about-info a h2 {
-  color:rgb(11, 6, 6);
+  color:#fff;
  }
 
  .about-info p {
@@ -411,6 +420,14 @@ span  {
  }
 
  /* CONTACT */
+
+ .contact-section  h2{
+  color:#fff;
+ }
+
+ .contact-section  h4{
+  color:#fff;
+ }
 
  /* FOOTER */
 
