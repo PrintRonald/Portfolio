@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-      crossorigin="anonymous"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
     />
   </head>
   <body>
@@ -23,20 +21,37 @@
               ><h2>R<span>M</span></h2></a
             >
           </div>
-          <ul class="menu">
+          <ul class="menu" id="menu">
             <li><a class="active" name="home">Home</a></li>
             <li><a href="#about">About me</a></li>
             <li><a class="quitar" href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          <div class="toggle-menu" >
+            <i class="fas fa-bars" id="toggle_open"></i>
+            <i class="fas fa-close" id="toggle_close"></i>
+          </div>
         </nav>
       </header>
 
       <!-- MAIN -->
       <main class="main">
         <div class="info-content">
+          <span class="info-content__subtitle">Industrial Civil Engineer</span>
           <h1>I'm <span>Ronald</span> Madariaga</h1>
-          <p>
+          <div class="sotial-network">
+            <a
+              href="https://github.com/PrintRonald?tab=repositories"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://linkedin.com/in/ronald-sebastian-madariaga-madariaga-15397892"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+          <p class="info-content__p ">
             I am an industrial civil engineer, trained in the knowledge of basic
             sciences, traditional engineering sciences and all related to
             administration and management. Focused in the areas of information
@@ -193,7 +208,7 @@
       <div class="container-contact">
         <div class="contact-form">
           <h4>Send me a message...</h4>
-          <form class="form" id="form">
+          <form class="form-group" id="form">
             <input type="text" id="subject" placeholder="Name" name="subject" />
             <input type="email" id="email" placeholder="Email" name="email" />
             <textarea
@@ -226,6 +241,8 @@
         ></a>
       </div>
     </footer>
+    <script src="./js/scripts.js"></script>
     <script src="./js/sendEmail.js"></script>
+    
   </body>
 </html>
